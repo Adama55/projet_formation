@@ -1,9 +1,121 @@
-<!DOCTYPE html> 
-<html lang="">
+<!DOCTYPE html>
+<html lang="fr">
     <head>
-
+        <title> Visite au Mali </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
     </head>
+
     <body>
-        
+        <header>
+            <div class=" logo ">
+                <img src="images/LOGO.png" alt="logo du site mali visite"/>
+            </div>
+            <nav >
+                <a href="#apropos"> A propos </a> 
+                <a href="#lieu"> Lieux visités</a> 
+                <a href="#retours_exp"> Retours d'experiences </a> 
+                <a href="#comments"> Votre commentaire</a>
+            </nav>           
+        </header>
+        <section id="a_propos">
+            <div id="apropos">
+                <h1> Mahamoud Sylla <br/> Guide Touristique</h1>
+                <p>
+                    Sanjay is the head-chef here.He is 
+                extremely experienced and he is
+                someone who can catch the vibe 
+                of people,the type of food to serve 
+                and he always makes sure that food is
+                upto the mark and "No halfway house in 
+                the quality of food you serve" 
+                is his main motto,says our head-ched Sanjay
+                </p>
+
+                <button class=" boutton"> <a href="mailto:visitemali@gmail.com">Me contacter</a> </button> <!-- ces't un bouton -->
+            </div>
+            <div class="profil">
+                <img src="images/profil.png" alt=" photo d profil" />
+            </div>
+        </section>
+        <section class="lieu_visite">
+            <h2 id="lieu">Lieu visités</h2>
+            <div class="lieu_visite_1">
+                <img src="images/Bamako-1.jpg" alt=" image de la ville de bamako" />
+                <img src="images/Bamako-2.jpg" alt="image de la ville de bamako" >
+                <img src="images/Bamako-3.jfif" alt="image de la ville de bamako" >
+            </div>
+            <div class="lieu_visite_2">
+                <img src="images/dogon.jpg" alt="image du mali pays dogon" >
+                <img src="images/kayes.jpg" alt=" region de kayes" >
+                <img src="images/San.jpg" alt="la grande mosquée de la ville de San" >
+            </div>
+        </section>
+        <section class=" retours ">
+            <h2 id="retours_exp"> Retours d'expériences </h2>
+            <div class="retours_experiences">
+                <div class="carte">
+                    <img src="images/carte du mali.png" alt="la carte du mali" />
+                </div>
+                <div class=" description ">
+                    <h3>Données générales</h3>
+                    <p>Nom officiel : République du Mali <br/> Nature du régime :
+                        régime de transitionPrésident de la transition : Assimi Goïta*
+                    </p>
+                    <h3>Données géographiques</h3>
+                    <p> Superficie : 1 241 231 km² <br/> Capitale : 
+                        Bamako (2 529 300 habitants) Villes principales :
+                        
+                        <ul>
+                            <li>Bamako</li>
+                            <li>Sikasso,</li> 
+                            <li> Mopti, </li> 
+                            <li>Ségou, </li>
+                            <li>Kayes, </li>
+                            <li>Gao</li>
+                        </ul>
+                        <br/> Langue officielle : françaisLangues courantes :
+                            mandingue (bambara, malinké, dioula), tamasheq, poular,
+                            senoufo, bobo,
+                            songhaïMonnaie : franc CFAFête nationale : 
+                            22 septembre (indépendance en 1960)
+                    </p>
+                    <h3>Données démographiques</h3>
+                    <p> Population : 20 856 000 habitants
+                         (ONU 2021) <br/> Croissance démographique annuelle : 
+                         3 % (ONU 2021) <br/> Espérance de vie : 
+                        59,5 (F), 58 (H) (à la naissance, ONU 2021)
+                        <br/> Religions : islam 94,8 %, christianisme 2,4 %, 
+                        animisme 2 % (recensement de 2009)Indice 
+                        de développement humain : 186e sur 191 pays (PNUD, 2021)
+                    </p>
+                
+                </div>
+            </div>
+        </section>
+        <section class="commentaire">
+            <h2 id="comments"> Votre commentaire </h2>
+            <form>
+                <div>
+                    <label> Nom et Prenom (s)</label>
+                    <input type="text" required/>
+                    <label> Votre email </label>
+                    <input type="email" required/>
+                </div>
+                <textarea cols="60" rows="10" placeholder="votre commentaire ici"></textarea>
+            </form>
+            <button class=" boutton"> Envoyer </button>
+        </section>
+        <footer>
+            <a> Rejoignez moi sur </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="images/insta.svg" alt="Logo Instagram" >
+            </a>
+            <a target="_blank" href="https://twitter.com/" class="lien-icone">
+                <img src="images/twt.svg" alt="Logo Twitter" >
+            </a>
+
+        </footer>
     </body>
+
 </html>
